@@ -25,17 +25,13 @@ import w3engineers.com.cookerbot.R;
 import w3engineers.com.cookerbot.activity.IoTActivity;
 import w3engineers.com.cookerbot.activity.RecipeActivity;
 
-
 public class DeviceListActivity extends Activity {
     private static final String TAG = "borhan DeviceListActivity";
     private static final boolean D = true;
     private Context context;
-
     TextView textView1;
-
     // EXTRA string to send on to mainactivity
     public static String EXTRA_DEVICE_ADDRESS = "device_address";
-
     // Member fields
     private BluetoothAdapter mBtAdapter;
     private ArrayAdapter<String> mPairedDevicesArrayAdapter;
